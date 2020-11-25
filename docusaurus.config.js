@@ -4,24 +4,16 @@ module.exports = {
   url: 'https://falixnodes.net',
   baseUrl: '/',
   onBrokenLinks: 'log',
-  favicon: 'img/logo.png',
+  favicon: 'img/favicon.ico',
   organizationName: 'BearTS', // Usually your GitHub org/user name.
   projectName: 'Falixnodes-Docs', // Usually your repo name.
   themeConfig: {
-   announcementBar: {
-    id: 'support_us', // Any value that will identify this message.
-    content:
-       '<a href="https://discord.gg/falixnodes">Discord Server</a> | <a href="https://gp.falixnodes.net">Game Panel</a> | <a href="https://client.falixnodes.net">Client Page</a>',
-     backgroundColor: '#fafbfc', // Defaults to `#fff`.
-      textColor: '#091E42', // Defaults to `#000`.
-      isCloseable: true, // Defaults to `true`.
-  },
     navbar: {
        hideOnScroll: true,
       title: 'Falixnodes.net Help Page',
       logo: {
         alt: 'Falixnodes.net',
-        src: 'img/logo.png',
+        src: 'img/favicon.ico',
       },
       items: [
         {

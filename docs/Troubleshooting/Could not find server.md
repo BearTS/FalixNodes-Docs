@@ -16,7 +16,8 @@ You can follow This [Video Guide](https://www.youtube.com/watch?v=94keRJ6tQ9E) o
 - Enter `index.js/bot.js` (whatever your main bot file is named) in `MAIN BOT FILE`
 - In `DISCORD BOT HOSTING MODE`,<br/>
 Enter `pm2_node` if your bot is made in javascript (nodejs)<br/>
-Enter `pm2_python`for python
+Enter `pm2_python`for python<br/>
+
 :::info Missing Dependencies
 if your bot is made in python If you face errors of module/package not being found:<br/>
 Enter `pip_install`, start the server and wait till it's done installing the packages if you are using python. Then set it back to `pm2_python`<br/>

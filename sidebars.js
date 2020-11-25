@@ -15,7 +15,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Making Minecraft Server (Java)',
-      collapsed: false,
+      collapsed: true,
       items: [
           'McJava/normalmc',
           'McJava/bungeecord',
