@@ -18,9 +18,9 @@ You can follow This [Video Guide](https://www.youtube.com/watch?v=94keRJ6tQ9E) o
 Enter `pm2_node` if your bot is made in javascript (nodejs)<br/>
 Enter `pm2_python`for python<br/>
 
-:::warning Missing Dependencies
+:::info Missing Dependencies
 if your bot is made in python If you face errors of module/package not being found:<br/>
-Enter `pip_install`, start the server and wait till it's done installing the packages if you are using python. Then set it back to `pm2_python`
+Enter `pip_install`, start the server and wait till it's done installing the packages if you are using python. Then set it back to `pm2_python`<br/>
 Enter `npm_install` , start the server and wait till it's done installing the modules if you are using javascript. Then set it back to `pm2_node`
 :::
 <br/>
