@@ -25,7 +25,7 @@ Enter `npm_install` , start the server and wait till it's done installing the mo
 :::
 
 <center><img src={require('../assets/dpython.png').default} /><font size='2' color='#c75a83'><i>Discord.py</i></font><br/><br/></center>
-<center><img src={require('../assets/djs.png').default} />font size='2' color='#c75a83'><i>Discord.js</i></font></center><br/></center>
+<center><img src={require('../assets/djs.png').default} />font size='2' color='#c75a83'><i>Discord.js</i></font><br/></center>
 
 ###  Solutions for Minecraft Server Hosting Users
 
