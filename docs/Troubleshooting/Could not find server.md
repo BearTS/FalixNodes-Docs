@@ -14,18 +14,22 @@ You can follow This [Video Guide](https://www.youtube.com/watch?v=94keRJ6tQ9E) o
 - Go to [GamePanel](https://gp.falixnodes.net) , choose your server and to go `STARTUP` in the tab menu.
 - Scroll down until you find `DISCORD BOT HOSTING MODE` & `MAIN BOT FILE`
 - Enter `index.js/bot.js` (whatever your main bot file is named) in `MAIN BOT FILE`
-- In `DISCORD BOT HOSTING MODE`,<br/>
+- In `DISCORD BOT HOSTING MODE`<br/>
 Enter `pm2_node` if your bot is made in javascript (nodejs)<br/>
 Enter `pm2_python`for python<br/>
 
-:::info Missing Dependencies
+:::warning Missing Dependencies
 if your bot is made in python If you face errors of module/package not being found:<br/>
-Enter `pip_install`, start the server and wait till it's done installing the packages if you are using python. Then set it back to `pm2_python`. <br/>
+Enter `pip_install`, start the server and wait till it's done installing the packages if you are using python. Then set it back to `pm2_python`
 Enter `npm_install` , start the server and wait till it's done installing the modules if you are using javascript. Then set it back to `pm2_node`
 :::
 <br/>
-<img src={require('../assets/dpython.png').default} /><font size='2' color='#c75a83'><i>Discord.py</i></font><br/><br/>
-<img src={require('../assets/djs.png').default} />font size='2' color='#c75a83'><i>Discord.js</i></font><br/><br/>
+<center>
+<img height="80%" width="80%" src={require('../assets/djs.png').default}/><br />
+<font size='2' color='#c75a83'><i>Discord.js</i></font><br/><br/>
+<img height="80%" width="80%" src={require('../assets/dpython.png').default}/><br />
+<font size='2' color='#c75a83'><i>Discord.py</i></font><br/></center>
+
 
 ###  Solutions for Minecraft Server Hosting Users
 
