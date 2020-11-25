@@ -1,9 +1,9 @@
 ---
 id: normalmc
-title: Making A Normal Minecraft server
+title: Making A Minecraft server
 hide_title: false
-sidebar_label: Making A Normal Minecraft server
-description: Guide To make a basic Minecraft Server on Falixnodes.net
+sidebar_label: Making A Minecraft server
+description: Guide To make a Minecraft Server on Falixnodes.net
 hide_table_of_contents: true
 ---
 #### Creating A Server
@@ -13,11 +13,15 @@ hide_table_of_contents: true
 We first will need to create a server, To do that first Go to our [Client Page](https://client.falixnodes.net) and login with discord, then click on `CREATE SERVER` button on the side.<br/>
 <center>
 <img src={require('../assets/creationoptions.png').default} height="30%" width="30%" /><br/></center>
-After Clicking on it you'll be redirected to this page then enter a server name and the amount of ram and select the server location (for Donator node, you must be a <a href="https://patreon.com/falixnodes">Tier 2+ Patreon</a>).
+
+After Clicking on it you'll be redirected to this page then enter a server name and the amount of ram and select the server location (for Donator node, you must be a <a href="https://patreon.com/falixnodes">Tier 2+ Patreon</a>).<br/>
+
 then click on the `CREATE`! button, then it will load a bit and make your server
+
 :::info Error
 If you get any Error while Creation Server, [Click Here to Troubleshoot](../Troubleshooting/servercreation)
 :::
+
 Then u can go to [GamePanel](https://gp.falixnodes.net) and install Minecraft on the server by following the steps below
 
 #### Steps To Install Minecraft Server From The Game Panel
@@ -30,3 +34,19 @@ Then u can go to [GamePanel](https://gp.falixnodes.net) and install Minecraft on
 <font size='2' color='#c75a83'><i>select 1 for Minecraft Java</i></font><br/><br/>
 <img align="center" src={require('../assets/pspigot2.png').default}/><br />
 <font size='2' color='#c75a83'><i>select the software, you want to use.</i></font></center>
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  groupId="type"
+  defaultValue="bukkitl"
+  values={[
+    {label: 'Forge', value: 'forge'},
+  ]
+}>
+<TabItem value="forge">
+Type `20` for forge, and install it, then go to `Startup` Tab and change `Java` version to `adopt@1.14.0-1` <br/>
+After this, You should be able to boot up to your server.
+</TabItem>
+</Tabs>

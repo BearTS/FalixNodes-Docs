@@ -24,6 +24,9 @@ Enter `pip_install`, start the server and wait till it's done installing the pac
 Enter `npm_install` , start the server and wait till it's done installing the modules if you are using javascript. Then set it back to `pm2_node`
 :::
 
+<center><img src={require('../assets/dpython.png').default} /><font size='2' color='#c75a83'><i>Discord.py</i></font><br/><br/></center>
+<center><img src={require('../assets/djs.png').default} />font size='2' color='#c75a83'><i>Discord.js</i></font></center><br/>
+
 ###  Solutions for Minecraft Server Hosting Users
 
 - Go to [GamePanel](https://gp.falixnodes.net) , choose your server and to go `STARTUP` in the tab menu.
@@ -31,5 +34,5 @@ Enter `npm_install` , start the server and wait till it's done installing the mo
 Enter `pmmp` if your server is PocketMineMP server<br/>
 Enter `bedrock` if your server is a Vanilla Bedrock server<br/>
 Enter `bombsquad` if your server is a BombSquad server<br/>
-Similarly, you can find rest of the options for your server in the screenshot below
-<img align='center' src={require('../assets/options.png').default} />
+Similarly, you can find rest of the options for your server in the screenshot below<br/>
+<center><img src={require('../assets/options.png').default} /></center>
