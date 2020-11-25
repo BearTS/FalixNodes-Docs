@@ -24,8 +24,8 @@ Enter `pip_install`, start the server and wait till it's done installing the pac
 Enter `npm_install` , start the server and wait till it's done installing the modules if you are using javascript. Then set it back to `pm2_node`
 :::
 <br/>
-<center><img src={require('../assets/dpython.png').default} /><font size='2' color='#c75a83'><i>Discord.py</i></font><br/><br/>
-<img src={require('../assets/djs.png').default} />font size='2' color='#c75a83'><i>Discord.js</i></font><br/><br/></center>
+<img src={require('../assets/dpython.png').default} /><font size='2' color='#c75a83'><i>Discord.py</i></font><br/><br/>
+<img src={require('../assets/djs.png').default} />font size='2' color='#c75a83'><i>Discord.js</i></font><br/><br/>
 
 ###  Solutions for Minecraft Server Hosting Users
 
