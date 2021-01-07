@@ -2,6 +2,12 @@
   "name": "Falixnodes-docs",
   "version": "0.0.1",
   "private": true,
+ 	"author": "Bear#3437 <bear@tamako.tech>",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/BearTS/FalixNodes-Docs/issues"
+	},
+	"homepage": "https://github.com/BearTS/FalixNodes-Docs",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
